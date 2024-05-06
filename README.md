@@ -13,10 +13,10 @@ The Wireshark lab aimed to enhance skills in capturing and analyzing network tra
 ## Steps
 **Capturing RADIUS Traffic**
 
-1. Use a capture filter to filter for RADIUS traffic (port 1812).
+1. Used a capture filter to filter for RADIUS traffic (port 1812).
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/68f6b484-fc92-4ab2-96cd-b4a4c05b4b53" alt="image">
 
-<sub>*ref 1. using a capture filter to show only traffic over port 1812*</sub>
+<sub>*ref 1. a capture filter to show only traffic over port 1812*</sub>
 
 2. Generated RADIUS traffic using NTRadPing Test Utility and ID Blender.
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/4003744d-fc8d-41bf-899f-c863e9dcf55b)" alt="image">
@@ -34,10 +34,10 @@ The Wireshark lab aimed to enhance skills in capturing and analyzing network tra
 
 **Capturing HTTP Traffic**
 
-1. Use a capture filter to filter for HTTP traffic (port 80).
+1. Used a capture filter to filter for HTTP traffic (port 80).
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/6fa6401e-fea9-4707-accf-395d2614c965" alt="image">
 
-<sub>*ref 5. using a capture filter to show only traffic over port 80*</sub>
+<sub>*ref 5. a capture filter to show only traffic over port 80*</sub>
 
 2. Generated HTTP traffic using httpbin for capture analysis.
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/e17c8838-43fa-4e40-b648-29c1c03e2db5" alt="image">
@@ -51,7 +51,7 @@ The Wireshark lab aimed to enhance skills in capturing and analyzing network tra
 
 **Capturing Form Based Login Credentials**
 
-1. Use a capture filter to filter for HTTP traffic (port 80).
+1. Used a capture filter to filter for HTTP traffic (port 80).
 
 2. Generated HTTP traffic using http://testing-ground.webscraping.pro/login for analysis.
 
@@ -85,6 +85,23 @@ The Wireshark lab aimed to enhance skills in capturing and analyzing network tra
 
 <sub>*ref 11. creation of new SSL key log file *</sub>
 
+4. Integrated the SSL key log file into Wireshark for decryption.
+
+5. Generated HTTPS traffic by browsing a website and obtained the website's IP address using the ping command.
+
+6. Identified the IP address of the selected website using Wireshark's conversation feature, then proceeded to use 'Follow the Stream' for further analysis.
+<img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/8fd4f518-99af-486d-a52c-3ca4b7311676" alt="image">
+
+<sub>*ref 12. conversation in Wireshark *</sub>
+
+<img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/501ad04d-5a2b-4578-9bca-1bf0165325de)" alt="image">
+
+<sub>*ref 13. result of 'Follow the Stream' *</sub>
+
+7. Examined the contents to view the decrypted data.
+<img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/24d4cd93-d27c-4360-95cb-43fc6bb08cd7" alt="image">
+
+<sub>*ref 14. decrypted packets *</sub>
 
 
 
