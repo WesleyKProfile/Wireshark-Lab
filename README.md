@@ -47,7 +47,7 @@ The Wireshark lab aimed to enhance skills in capturing and analyzing network tra
 3. Identify and select the authentication packet to access login credentials in plaintext.
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/6705a249-6c73-40fa-b701-251ae021e87f" alt="image">
 
-<sub>*ref 7. credentials in the clear *</sub>
+<sub>*ref 7. credentials in the clear*</sub>
 
 **Capturing Form Based Login Credentials**
 
@@ -58,7 +58,7 @@ The Wireshark lab aimed to enhance skills in capturing and analyzing network tra
 3. Identified password displayed in HTML format rather than Hypertext.
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/71c23bd6-ee72-4a58-9d83-e90f01ac74ee" alt="image">
 
-<sub>*ref 8. form based credentials in the clear *</sub>
+<sub>*ref 8. form based credentials in the clear*</sub>
 
 **Capturing DNS Traffic**
 
@@ -69,7 +69,7 @@ The Wireshark lab aimed to enhance skills in capturing and analyzing network tra
 3. The captured DNS traffic is now available for analysis.
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/1c3fb3b7-16fe-402f-9d46-fa34c23803c7" alt="image">
 
-<sub>*ref 9. captured DNS traffic *</sub>
+<sub>*ref 9. captured DNS traffic*</sub>
 
 **Capturing HTTPS Traffic**
 
@@ -78,12 +78,12 @@ The Wireshark lab aimed to enhance skills in capturing and analyzing network tra
 2. Examined TLS information within packets.
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/8b0e580b-ac1d-4fe1-864d-d55ba22661e1" alt="image">
 
-<sub>*ref 10. TLS information *</sub>
+<sub>*ref 10. TLS information*</sub>
 
 3. Utilized environment variables to generate an SSL key log file.
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/711406bb-a1cf-46b7-9a56-d5dc9158f0dc" alt="image">
 
-<sub>*ref 11. creation of new SSL key log file *</sub>
+<sub>*ref 11. creation of new SSL key log file*</sub>
 
 4. Integrated the SSL key log file into Wireshark for decryption.
 
@@ -92,16 +92,16 @@ The Wireshark lab aimed to enhance skills in capturing and analyzing network tra
 6. Identified the IP address of the selected website using Wireshark's conversation feature, then proceeded to use 'Follow the Stream' for further analysis.
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/8fd4f518-99af-486d-a52c-3ca4b7311676" alt="image">
 
-<sub>*ref 12. conversation in Wireshark *</sub>
+<sub>*ref 12. conversation in Wireshark*</sub>
 
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/501ad04d-5a2b-4578-9bca-1bf0165325de)" alt="image">
 
-<sub>*ref 13. result of 'Follow the Stream' *</sub>
+<sub>*ref 13. result of Follow the Stream*</sub>
 
 7. Examined the contents to view the decrypted data.
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/24d4cd93-d27c-4360-95cb-43fc6bb08cd7" alt="image">
 
-<sub>*ref 14. decrypted packets *</sub>
+<sub>*ref 14. decrypted packets*</sub>
 
 
 
