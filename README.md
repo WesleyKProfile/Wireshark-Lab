@@ -42,7 +42,7 @@ The Wireshark lab aimed to enhance skills in capturing and analyzing network tra
 2. Generated HTTP traffic using httpbin for capture analysis.
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/e17c8838-43fa-4e40-b648-29c1c03e2db5" alt="image">
 
-<sub>*ref 6. captured HTTP traffic*</sub
+<sub>*ref 6. captured HTTP traffic*</sub>
 
 3. Identify and select the authentication packet to access login credentials in plaintext.
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/6705a249-6c73-40fa-b701-251ae021e87f" alt="image">
