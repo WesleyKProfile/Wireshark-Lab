@@ -53,7 +53,7 @@ The Wireshark lab aimed to enhance skills in capturing and analyzing network tra
 
 1. Used a capture filter to filter for HTTP traffic (port 80).
 
-2. Generated HTTP traffic using http://testing-ground.webscraping.pro/login for analysis.
+2. Generated HTTP traffic using Web Scraper Testing Ground for analysis.
 
 3. Identified password displayed in HTML format rather than Hypertext.
 <img src="https://github.com/WesleyKProfile/Wireshark-Lab/assets/168662972/71c23bd6-ee72-4a58-9d83-e90f01ac74ee" alt="image">
